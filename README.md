@@ -80,6 +80,7 @@ This ensures proper asset loading and smooth navigation.
 ## 👩‍💻 **Author**
 
 **Ragini Shukla**
+
 Crafted with creativity and passion for clean design & elegant user interfaces.
 
 ---
