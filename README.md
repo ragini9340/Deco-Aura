@@ -66,11 +66,10 @@ This ensures proper asset loading and smooth navigation.
 ### ⭐ Home Page
 
 ![Home Page](https://github.com/ragini9340/Deco-Aura/blob/main/Pic%201.png?raw=true)
-![Home Page](https://github.com/ragini9340/Deco-Aura/blob/main/Pic%202.png?raw=true)
 
 ### ⭐ Categories Section
 
-![Categories](your-image-url-here)
+![Categories](https://github.com/ragini9340/Deco-Aura/blob/main/Pic%202.png?raw=true)
 
 ### ⭐ Product / Showcase Section
 
