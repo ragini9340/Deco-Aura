@@ -15,9 +15,8 @@ A modern and beautifully designed home-decor showcase website built to highlight
 | Area           | Technology                                |
 | -------------- | ----------------------------------------- |
 | **Frontend**   | HTML, CSS, JavaScript                     |
-| **Styling**    | Custom CSS / Tailwind (if used)           |
+| **Styling**    | Custom CSS                                |
 | **Assets**     | Images, Icons                             |
-| **Deployment** | Static Hosting (GitHub Pages / Netlify)** |
 
 ---
 
