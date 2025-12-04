@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ vibe|capitalize }} Ideas - DecoAura</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="results-header">
+            <a href="/" class="back-link"><i class="fas fa-arrow-left"></i> Back</a>
+            <h1>{{ vibe|capitalize }} Vibes</h1>
+            <p>Here are some curated ideas for your space.</p>
+        </header>
+
+        <main class="masonry-grid">
+            {% for pin in suggestions %}
+            <div class="pin-card">
+                <div class="pin-image">
+                    <img src="https://image.pollinations.ai/prompt/{{ pin.img_prompt | urlencode }}?width=600&height=800&nologo=true&enhance=true"
+                        alt="{{ pin.title }}"
+                        onerror="this.onerror=null; this.src='https://via.placeholder.com/600x800/722F37/EFDFBB?text={{ pin.title | urlencode }}';"
+                        loading="lazy">
+                    <div class="pin-overlay">
+                        <button class="save-btn"><i class="fas fa-thumbtack"></i> Save</button>
+                    </div>
+                </div>
+                <div class="pin-content">
+                    <h3>{{ pin.title }}</h3>
+                    <p>{{ pin.desc }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </main>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
