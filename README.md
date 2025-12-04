@@ -16,6 +16,7 @@ A modern and beautifully designed home-decor showcase website built to highlight
 | -------------- | ----------------------------------------- |
 | **Frontend**   | HTML, CSS, JavaScript                     |
 | **Styling**    | Custom CSS                                |
+| **Backend**    | Python (Flask)                            |
 | **Assets**     | Images, Icons                             |
 
 ---
