@@ -73,7 +73,8 @@ This ensures proper asset loading and smooth navigation.
 
 ### ⭐ Product / Showcase Section
 
-![Showcase](your-image-url-here)
+![Showcase](https://github.com/ragini9340/Deco-Aura/blob/main/Pic%203.png?raw=true)
+![Showcase](https://github.com/ragini9340/Deco-Aura/blob/main/Pic%204.png?raw=true)
 
 ---
 
