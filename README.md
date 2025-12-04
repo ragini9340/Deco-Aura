@@ -65,7 +65,8 @@ This ensures proper asset loading and smooth navigation.
 
 ### ⭐ Home Page
 
-![Home Page](your-image-url-here)
+![Home Page](https://github.com/ragini9340/Deco-Aura/blob/main/Pic%201.png?raw=true)
+![Home Page](https://github.com/ragini9340/Deco-Aura/blob/main/Pic%201.png?raw=true)
 
 ### ⭐ Categories Section
 
